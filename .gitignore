@@ -1,0 +1,43 @@
+# Diretórios e arquivos da IDE
+.idea/
+*.iml
+
+# Arquivos de configuração local
+config.properties
+
+# Arquivos de build
+/out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+
+# Banco de dados local
+*.db
+*.mdf
+*.ldf
+*.bak
+
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Biblioteca de drivers
+lib/sqljdbc*.jar
+lib/sqlite-jdbc*.jar
